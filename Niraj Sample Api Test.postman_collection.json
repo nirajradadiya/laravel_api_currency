@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "4bc16a7d-0b62-4a2a-a7ae-464539966978",
+		"name": "Niraj Sample Api Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Total Amount Base on Currency - Api1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{BASE_URL}}{{API_VERSION}}currency_totals",
+					"host": [
+						"{{BASE_URL}}{{API_VERSION}}currency_totals"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4130be60-ee5b-4466-acc8-6e1432745b5b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "69aaf554-5607-45a1-a55d-388739145a89",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
